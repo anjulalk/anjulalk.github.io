@@ -1,0 +1,41 @@
+# Site settings
+title:          anjulalk
+description:    "this is a clever description"
+baseurl:        "/"
+url:            "https://anjulalk.github.io"
+github:		"https://github.com/anjulalk"
+linkedin:	"https://lk.linkedin.com/in/anjulalk"
+stackoverflow:	"https://stackoverflow.com/users/8171124/anjula-karunarathne"
+
+# Google Analytics
+google_analytics: UA-148628467-1
+
+# Author
+author:
+  name:         Anjula Karunarathne
+  url:          https://anjulalk.github.io
+  email:        anjulakarunarathne@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
