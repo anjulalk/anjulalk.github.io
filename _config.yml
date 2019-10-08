@@ -1,42 +1,52 @@
-# Site settings
-title:          Anjula Karunarathne
-description:    "Undergraduate at University of Colombo School of Computing"
-baseurl:        "/"
-url:            "https://anjulalk.github.io"
-github:		"https://github.com/anjulalk"
-linkedin:	"https://lk.linkedin.com/in/anjulalk"
-stackoverflow:	"https://stackoverflow.com/users/8171124/anjula-karunarathne"
-facebook:	"https://facebook.com/anjulalk"
+title: anjulalk
+author: Anjula Karunarathne
+email: your-email@domain.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# Google Analytics
-google_analytics: UA-148628467-1
+show_excerpts: false # set to true to show excerpts on the homepage
 
-# Author
-author:
-  name:         Anjula Karunarathne
-  url:          https://anjulalk.github.io
-  email:        anjulakarunarathne@gmail.com
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    # twitter: jekyllrb
+    github:  jekyll
+    #rss: rss
+    # dribbble: jekyll
+    facebook: anjulalk
+    # flickr:   jekyll
+    # instagram: jekyll
+    linkedin: anjulalk
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-markdown:       kramdown
-include:
-  - _pages
+theme: minima
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+ - jekyll-feed
+ - jekyll-seo-tag
