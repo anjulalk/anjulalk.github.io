@@ -1,10 +1,8 @@
 title: Anjula Karunarathne
 author: Anjula Karunarathne
-email: your-email@domain.com
+email: anjulakarunarathne@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Undergraduate at University of Colombo School of Computing
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -14,7 +12,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  jekyll
+    github:  anjulalk
     #rss: rss
     # dribbble: jekyll
     facebook: anjulalk
