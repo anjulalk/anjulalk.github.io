@@ -17,8 +17,6 @@ Using a lightweight Linux distribution will make this much easier than running A
 	
 I would suggest a lightweight alternative such as [Manjaro Xfce](https://manjaro.org/download/), [Linux Mint Xfce](https://www.linuxmint.com/), [MX Linux](https://mxlinux.org/) or [Xubuntu](https://xubuntu.org/). These distros uses Xfce desktop environment, if it wasn't obvious yet; and only use about 400 megabytes at startup. This gives us much more room to operate with.
 
-![Manjaro Xfce 18.0 What's new](http://img.youtube.com/vi/zb_9tc-DiIs/0.jpg)](http://www.youtube.com/watch?v=zb_9tc-DiIs "# Manjaro 18.0 XFCE Edition - See What's new")
-
  2. Use a lightweight web-browser for reading documentation
  
 A web-browser is essential for developer workflow. If you use something like Google Chrome it would eat the ram (heh..) all by itself which will make Android Studio a bit sad.
