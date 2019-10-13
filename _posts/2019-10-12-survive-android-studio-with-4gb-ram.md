@@ -52,7 +52,7 @@ This has some caveats. For small projects there wouldn't be any difference. But 
  
  This is how you do it:
 	 
-	 - Open the `gradle.properties` file, creating it if it doesn't exist:
+	- Open the `gradle.properties` file, creating it if it doesn't exist:
 		    -   Windows: `%USERPROFILE%\.gradle\gradle.properties`
 		    -   Linux/Mac: `~/.gradle/gradle.properties`
 	- Update the `org.gradle.jvmargs` property, creating it if necessary. I set mine to this:
