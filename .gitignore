@@ -1,5 +1,15 @@
-.bundle
-.sass-cache
-Gemfile.lock
-_site
-*.gem
+# Bundler configuration
+/.bundle/
+/Gemfile.lock
+
+# Vendored Gems
+/vendor/
+
+# Jekyll generated site
+/_site/
+
+# Caches
+/.sass-cache/
+
+# Backup files
+/backup/

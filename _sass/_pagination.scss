@@ -1,0 +1,38 @@
+.pagination {
+  font-size: .9rem;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.pagination a, .pagination .disabled {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #333333;
+}
+
+.pagination .disabled {
+  opacity: 0.5;
+}
+
+.pagination a:hover, .pagination a:focus {
+}
+
+.pagination a:active {
+}
+
+.pagination .button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.button-disabled {
+}
+
+.button-disabled:hover,
+.button-disabled:active,
+.button-disabled:focus {
+  cursor: not-allowed;
+}

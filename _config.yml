@@ -1,45 +1,104 @@
-title: Anjula Karunarathne
-author: Anjula Karunarathne
-email: anjulakarunarathne@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  A tireless seeker of knowledge, ocassional purveyor of wisdom, and also coincidentally, a developer.  
-  I am an undergraduate at the prestigious University of Colombo, School of Computing.  
-  Hopefully my work reflects that. 
-google-analytics: UA-148628467-1
+# Site settings
+title:       anjulalk.github.io
+email:       ""
+author:      Anjula Karunarathne
+description: "Anjula Karunarathne"
+baseurl:     ""
+url:         "http://anjulalk.github.io"
+date_format: "%b %-d, %Y"
 
-show_excerpts: false # set to true to show excerpts on the homepage
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    false
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
 
-minima:
-  date_format: "%b %-d, %Y"
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
 
-  # generate social links in footer
-  social_links:
-    # twitter: jekyllrb
-    github:  anjulalk
-    #rss: rss
-    # dribbble: jekyll
-    facebook: anjulalk
-    # flickr:   jekyll
-    # instagram: jekyll
-    linkedin: anjulalk
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
-    stackoverflow: 8171124/anjula-karunarathne
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
 
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
- - about.md
+# Social icons
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
 
 # Build settings
-theme: minima
-
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     6
+sass:
+  compressed: true
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
