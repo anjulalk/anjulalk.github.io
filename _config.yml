@@ -1,5 +1,5 @@
 # Site settings
-title:       anjulalk.github.io
+title:       anjulalk
 email:       ""
 author:      Anjula Karunarathne
 description: "Anjula Karunarathne"
@@ -8,18 +8,18 @@ url:         "http://anjulalk.github.io"
 date_format: "%b %-d, %Y"
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: true
+enable_mathjax: true
+extended_fonts: true
+enable_anchorjs: true
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: anjulalk
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -28,14 +28,14 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: anjulalk
 bitbucket_username:
-stackoverflow_id:
+stackoverflow_id: 8171124
 twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: anjulalk
 angellist_username:
 medium_id:
 bitcoin_url:
