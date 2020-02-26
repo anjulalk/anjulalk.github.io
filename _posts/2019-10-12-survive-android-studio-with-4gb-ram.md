@@ -38,10 +38,11 @@ However if you are building any bigger projects you are better off by upgrading 
 
 This is how you do it:
 1. Open the `gradle.properties` file, creating it if it doesn't exist:
-		    -   Windows: `%USERPROFILE%\.gradle\gradle.properties`
-		    -   Linux/Mac: `~/.gradle/gradle.properties`
+    - Windows: `%USERPROFILE%\.gradle\gradle.properties`
+    - Linux/Mac: `~/.gradle/gradle.properties`
 2. Update the `org.gradle.jvmargs` property, creating it if necessary. I set mine to this:
 	    `org.gradle.jvmargs=-Xmx256m -XX:MaxPermSize=256m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8`
 
-I haven't noticed any difference in build performance for my small projects with the max heap size set to 256MB. (`-Xmx256m`) Do experiment with these values because the outcome will be different for different versions and your projects. Finally, restart Android Studio and make sure the gradle process is killed.
+I haven't noticed any difference in build performance for my small projects with the max heap size set to 256MB. (`-Xmx256m`) Do experiment with these values because the outcome will be different for different versions and your projects. If you're done, restart Android Studio and make sure the gradle process is killed.
+
 That's all. Hope that helps.
