@@ -1,32 +1,31 @@
 ---
 layout: default
 ---
-{% assign posts_count = paginator.posts | size %}
 
-<div class="home">
-  <p>Hi, I'm <a href="https://anjulalk.github.io/about/">Anjula</a>! Welcome to my blog.</p>
-  <p>Below are my latest posts, or you can browse the <a href="https:/anjulalk.github.io/archive/">archive</a> to
-    see all my writings. You can also subscribe to the <a href="https://anjulalk.github.io/feed.xml">RSS feeds</a>.</p>
-  <hr/>
-  {% if posts_count > 0 %}
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post py1">
-      <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h3 post-title">{{ post.title }}</h3></a>
-      <p class="post-summary">
-        {% if post.summary %}
-        {{ post.summary | markdownify }}
-        {% else %}
-        {{ post.excerpt | markdownify }}
-        {% endif %}
-      </p>
-    </div>
-    {% endfor %}
-  </div>
+<section>
 
-  {% include pagination.html %}
-  {% else %}
-  <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-    {% endif %}
-</div>
+	{% for post in site.posts %}
+		{% unless post.next %}
+			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
+		{% else %}
+			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			{% if year != nyear %}
+				<h3 class="code">{{ post.date | date: '%Y' }}</h3>
+			{% endif %}
+		{% endunless %}
+
+		<ul>
+			<li>
+				<div class="post-date code">
+					<span>{{ post.date | date: "%b %d" }}</span>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+
+	{% endfor %}
+
+</section>

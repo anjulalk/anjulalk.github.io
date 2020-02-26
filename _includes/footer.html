@@ -1,13 +1,4 @@
-<footer class="center">
-  <div class="measure">
-    <div>
-      Created with ❤ by Anjula Karunarathne
-    </div>
-  </div>
-</footer>
-{% if site.enable_anchorjs %}<!-- AnchorJS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
-<script>
- anchors.options.visible = 'always';
- anchors.add('article h2, article h3, article h4, article h5, article h6');
-</script>{% endif %}
+<div class="footer">
+  <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
+  <span class="block"><small>&lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/the-plain">The Plain theme</a>.</small></span>
+</div>
