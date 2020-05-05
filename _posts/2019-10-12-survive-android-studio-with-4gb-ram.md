@@ -3,6 +3,7 @@ layout: post
 title:  "Survive Android Studio with 4GB of Memory"
 author: "Anjula Karunarathne"
 published: true
+comments: true
 ---
 Even though it says in [Android Studio download page](https://developer.android.com/studio) that the minimum required memory is 4GB, you will feel the struggle when you run it in a machine with less than 8GB of memory.
 
