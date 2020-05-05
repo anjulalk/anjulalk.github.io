@@ -1,45 +1,40 @@
-# Site Info
-title:              "anjulalk"
-description:        "Thoughts and stuff"
-author_name:        "Anjula Karunarathne" # change this to your name
-logo_url:           https://avatars3.githubusercontent.com/u/26695184?s=460&v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+# Site settings
+title:          Anjula Karunarathne
+description:    "Undergraduate at UCSC"
+url:            "https://anjulalk.github.io"
 
-# Site Settings
-url:                https://anjulalk.github.io # main url
-baseurl:            /
-permalink:          /:title # Post permalink
-timezone:           Asia/Colombo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+# Google Analytics
+google_analytics: UA-148628467-1
 
-# Site Build
-highlighter:        rouge
-markdown:           kramdown
-kramdown:
-    input:          GFM
+# Author
+author:
+  name:         Anjula Karunarathne
+  url:          https://anjulalk.github.io
+  email:        anjulakarunarathne@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
 sass:
-    style:          :compressed
+  sass_dir:     _sass
+  style:        compressed
 
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+# Gems
 plugins:
-  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
 
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+# Disqus (Set to your disqus id)
+disqus:         anjulalk
