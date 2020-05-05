@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: post
 title: "Resume"
 author: "Anjula Karunarathne"
-permalink: /about/
+permalink: /resume/
 ---
 
 This page is coming, soon!
