@@ -1,15 +1,17 @@
-- title: Home
+--- 
+- 
+  external: false
+  title: Home
   url: /
+- 
   external: false
-
-- title: About
+  title: About
   url: /about/
-  external: false
-
-- title: GitHub
-  url: https://github.com/anjulalk/
+- 
   external: true
-   
-- title: LinkedIn
-  url: https://linkedin.com/in/anjulalk
+  title: GitHub
+  url: "https://github.com/anjulalk/"
+- 
   external: true
+  title: LinkedIn
+  url: "https://linkedin.com/in/anjulalk"
