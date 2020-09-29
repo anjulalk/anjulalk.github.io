@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Anjula&#39;s blog</title>
-    <link>https://anjulalk.github.io/blog/</link>
-    <description>Recent content in Blog on Anjula&#39;s blog</description>
+    <title>javascript on Anjula&#39;s blog</title>
+    <link>https://anjulalk.github.io/blog/javascript/</link>
+    <description>Recent content in javascript on Anjula&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2020, Anjula Karunarathne.</copyright>
-    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://anjulalk.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://anjulalk.github.io/blog/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Google Summer of Code 2020 Project with Joplin Notebook</title>
       <link>https://anjulalk.github.io/my-google-summer-of-code-2020-project-with-joplin-notebook/</link>
@@ -17,17 +17,6 @@
       <description>Joplin desktop application supports keyboard shortcuts to a certain degree. However, there wasn&amp;rsquo;t an option for users to configure keyboard shortcuts according to their preferences. My project was to implement a keyboard shortcut editor along with the necessary integration.
 The project consisted of two parts:
  Back-end service for handling all keymapping-related functionality Keyboard shortcut editor with the necessary functionality to alter the keymap  Progress The project was implemented in two pull requests.</description>
-    </item>
-    
-    <item>
-      <title>Survive Android Studio with 4GB of Memory</title>
-      <link>https://anjulalk.github.io/survive-android-studio-with-4gb-of-memory/</link>
-      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://anjulalk.github.io/survive-android-studio-with-4gb-of-memory/</guid>
-      <description>Even though it says in Android Studio download page that the minimum required memory is 4GB, you will feel the struggle when you run it in a machine with less than 8GB of memory.
-Fortunately, there are a few tweaks you can use to make it somewhat bearable. Some of these might be not much effective, but trust me; you need every bit of performance you can get.
-Switch to a lightweight Linux distribution Using a lightweight Linux distribution will make it much easier than running Android Studio with that memory hog called Windows.</description>
     </item>
     
   </channel>

@@ -4,17 +4,32 @@
   
   <url>
     <loc>https://anjulalk.github.io/</loc>
-    <lastmod>2019-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anjulalk.github.io/blog/android/</loc>
-    <lastmod>2019-10-12T00:00:00+00:00</lastmod>
+    <loc>https://anjulalk.github.io/blog/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://anjulalk.github.io/blog/</loc>
+    <loc>https://anjulalk.github.io/blog/javascript/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anjulalk.github.io/my-google-summer-of-code-2020-project-with-joplin-notebook/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anjulalk.github.io/blog/projects/</loc>
+    <lastmod>2020-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anjulalk.github.io/blog/android/</loc>
     <lastmod>2019-10-12T00:00:00+00:00</lastmod>
   </url>
   
